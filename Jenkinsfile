@@ -9,8 +9,8 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git branch: 'main',
-				url: 'https://github.com/ahmadelsafty/calculator.git'
+				git branch: 'master',
+				url: 'https://github.com/tunourah/calculator-main.git'
 			}
 		}
 
